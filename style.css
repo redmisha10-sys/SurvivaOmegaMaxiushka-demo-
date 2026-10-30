@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+@font-face {
+    font-family: 'Determination';
+    src: url('DeterminationMonoWebRegular-Z5oq.ttf') format('truetype'); /* Changed to truetype */
+}
+@font-face {
+    font-family: 'Hachicro';
+    src: url('HachicroUndertaleBattleFontRegular-L3zlg.ttf') format('truetype'); /* Changed to truetype */
+}
+canvas {
+    background-color: #1a0b00; /* Dark fiery background */
+    border: 4px solid #ff9800; /* Maxiushkan orange */
+    box-shadow: 0 0 30px #ff9800;
+}
